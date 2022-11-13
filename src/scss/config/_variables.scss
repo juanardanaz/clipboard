@@ -1,0 +1,65 @@
+/* ========= FONT ========= */
+@font-face {
+    font-family: 'Bai Jamjuree';
+    src: url('../../assets/fonts/BaiJamjuree-SemiBold.woff2') format('woff2'),
+        url('../../assets/fonts/BaiJamjuree-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bai Jamjuree';
+    src: url('../../assets/fonts/BaiJamjuree-Regular.woff2') format('woff2'),
+        url('../../assets/fonts/BaiJamjuree-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ========= VARIABLES CSS ========= */
+$header-height: 3rem;
+
+/* ========= COLORS ========= */
+/* ========= Primary ========= */
+$strong-cyan: hsl(171, 66%, 44%);
+$light-blue: hsl(233, 100%, 69%);
+
+/* ========= Neutral ========= */
+$dark-grayish-blue: hsl(210, 10%, 33%);
+$grayish-blue: hsl(201, 11%, 66%);
+$white: hsl(0, 0%, 100%);
+
+/* ========= FONT and TYPOGRAPHY ========= */
+$body-font: 'Bai Jamjuree';
+$bigest-font-size: 2rem;
+$h2-font-size: 1.25rem;
+$h3-font-size: 1.125rem;
+$normal-font-size: .938rem;
+$small-font-size: .813rem;
+$smaller-font-size: .75rem;
+
+// Responsive Typography
+@media screen and (min-width: 968px) {
+    $bigest-font-size: 3rem;
+    $h2-font-size: 1.75rem;
+    $h3-font-size: 1.25rem;
+    $normal-font-size: 1rem;
+    $small-font-size: .875rem;
+    $smaller-font-size: .813rem;
+}
+
+/* ========= Font Weight ========= */
+$font-semi-bold: 600;
+$font-regular: 400;
+
+/* ========= Margenes ========= */
+$mb-0-5: .5rem;
+$mb-0-75: .75rem;
+$mb-1: 1rem;
+$mb-1-5: 1.5rem;
+$mb-2: 2rem;
+
+/* ========= Z-Index ========= */
+$z-tooltip: 10;
+$z-fixed: 100;
