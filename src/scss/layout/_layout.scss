@@ -1,8 +1,8 @@
 /* ========= LAYOUT ========= */
 .container {
     max-width: 968px;
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
+    margin-left: $mb-1-5;
+    margin-right: $mb-1-5;
 }
 
 .grid {
@@ -15,8 +15,3 @@
     padding: 4.5rem 0 1rem;
 }
 
-
-/* ========= REUSABLE CSS CLASSES ========= */
-.section {
-    padding: 2.5rem 0 2rem;
-}

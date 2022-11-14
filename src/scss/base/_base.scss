@@ -29,3 +29,28 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/* ========= BUTTONS ========= */
+.button {
+    display: inline-block;
+    background-color: $strong-cyan;
+    color: $white;
+    padding: .95rem 5.8rem;
+    border-radius: 3rem;
+    font-weight: $font-semi-bold;
+
+    :hover{
+        cursor: pointer;
+        color: hsl(171, 83%, 81%);
+    }
+
+    &-mac {
+        background-color: $light-blue;
+
+        :hover{
+            cursor: pointer;
+            color: hsl(233, 77%, 80%);
+        }
+    }
+}
+
