@@ -1,0 +1,36 @@
+@import '../../scss/config/_variables.scss';
+
+/* ========= SNIPPETS ========= */
+.snippets {
+    &-main {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+
+    &-title {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    &-subtitle {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    &-data-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+        padding-top: 2rem;
+    }
+
+    &-data-title {
+        font-size: 1.5rem;
+    }
+
+    &-data-description {
+        color: $grayish-blue;
+    }
+}

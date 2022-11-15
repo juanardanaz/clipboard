@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../scss/components/_hero.scss';
-import Logo from '../../assets/img/logo.svg'
+import Logo from '../../assets/img/logo.svg';
 
 const Hero = () => {
   return (
