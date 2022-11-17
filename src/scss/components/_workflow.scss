@@ -1,0 +1,46 @@
+@import '../../scss/config/_variables.scss';
+
+/* ========= WORKFLOW ========= */
+.workflow {
+    &-container {
+        text-align: center;
+    }
+
+    &-data {
+        padding-bottom: 4rem;
+    }
+
+    &-title {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    &-subtitle {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: $grayish-blue;
+    }
+
+    &-options {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    &-options-image {
+        padding-bottom: 1.3rem;
+    }
+
+    &-options-title {
+        font-size: 1.5rem;
+        font-weight: $font-semi-bold;
+        padding-bottom: 1.3rem;
+    }
+
+    &-options-description {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: $grayish-blue;
+        padding-bottom: 1.3rem;
+    }
+}

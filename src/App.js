@@ -1,6 +1,7 @@
 import Hero from './components/hero/Hero';
 import Snippets from './components/snippets/Snippets';
 import Clipboard from './components/clipboard/Clipboard';
+import Workflow from './components/workflow/Workflow';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Hero />
       <Snippets />
       <Clipboard />
+      <Workflow />
     </div>
   );
 }
