@@ -1,21 +1,8 @@
 @import '../../scss/config/_variables.scss';
 @import '../../scss/base/_base.scss';
 
-/* ========= HERO ========= */
-.hero {
-    background: url(../../assets/img/bg-header-mobile.png) top no-repeat;
-    background-size: 100%;
-
-    &-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    &-logo {
-        padding-bottom: 2rem;
-    }
-
+/* ========= CTA ========= */
+.cta {
     &-data {
         text-align: center;
     }
@@ -31,16 +18,12 @@
         color: $grayish-blue;
     }
 
-    &-title, &-subtitle {
-        padding-bottom: 1rem;
-    }
-
     &-buttons {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 1rem;
         font-size: 1rem;
-        padding-top: 1.5rem;
+        padding-top: 2rem;
     }
 }

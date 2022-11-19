@@ -39,17 +39,17 @@ img {
     border-radius: 3rem;
     font-weight: $font-semi-bold;
 
-    :hover{
+    &:hover{
         cursor: pointer;
-        color: hsl(171, 83%, 81%);
+        background-color: hsl(171, 69%, 64%);
     }
 
     &-mac {
         background-color: $light-blue;
 
-        :hover{
+        &:hover{
             cursor: pointer;
-            color: hsl(233, 77%, 80%);
+            background-color: hsl(233, 98%, 77%);
         }
     }
 }
