@@ -48,11 +48,11 @@ Users should be able to:
 - [Lighthouse Reporter Viewer](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=es) - Lighthouse is an open-source, automated tool for improving the performance, quality, and correctness of your web apps.
 - [CSS filter generator](https://codepen.io/sosuke/pen/Pjoqqp) - This helped me to change the color of a SVG element
 - [ScrollReveal](https://scrollrevealjs.org/) - ScrollReveal is a JavaScript library for easily animating elements as they enter/leave the viewport.
-- [Responsive Design Checker](https://responsivedesignchecker.com/) - You can discover how your website looks on a variety of different screens, including desktops, laptops, tablets, and smartphones.
+- [Button Generator](https://www.bestcssbuttongenerator.com/) - CSS Button Generator is a free online tool that allows you to create cross browser HTML and CSS button styles.
 
 ## Author
 
-- Website - [https://www.jcardanaz.com/](https://www.your-site.com)
+- Website - [Portfolio](https://www.jcardanaz.com/)
 - Frontend Mentor - [@juanardanaz](https://www.frontendmentor.io/profile/juanardanaz)
 - Twitter - [@JuanArdanaz](https://www.twitter.com/JuanArdanaz)
 

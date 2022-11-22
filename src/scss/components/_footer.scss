@@ -1,0 +1,66 @@
+@import '../../scss/config/_variables.scss';
+@import '../../scss/base/_base.scss';
+
+/* ========= FOOTER ========= */
+.footer {
+    background-color: $grayish-white;
+
+    &-container {
+        row-gap: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-data {
+        justify-items:center;
+    }
+
+    &-logo {
+        width: 20%;
+        height: auto;
+        margin-bottom: $mb-1-5;
+    }
+
+    &-links {
+        display: grid;
+        row-gap: 1.5rem;
+        text-align: center;
+        margin-bottom: $mb-1;
+    }
+
+    &-link {
+        font-size: $h3-font-size;
+        color: $dark-grayish-blue;
+        font-weight: $font-regular;
+
+        &:hover {
+            color: $strong-cyan;
+            cursor: pointer;
+        }
+    }
+
+    &-social {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    &-social-link:link {
+        color: #4c545d;
+    }
+
+    &-social-link:visited {
+        color: $dark-grayish-blue;
+    }
+
+    &-social-icon {
+        width: 1.5rem;
+        height: auto;
+
+        &:hover {
+            cursor: pointer;
+            filter: invert(61%) sepia(52%) saturate(587%) hue-rotate(122deg) brightness(90%) contrast(86%);
+        }
+    }
+}

@@ -4,6 +4,7 @@ import Clipboard from './components/clipboard/Clipboard';
 import Workflow from './components/workflow/Workflow';
 import Clients from './components/clients/Clients';
 import Cta from './components/cta/Cta';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Workflow />
       <Clients />
       <Cta />
+      <Footer />
     </div>
   );
 }
