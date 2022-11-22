@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/clipboard/static/css/main.8dad93c8.css",
-    "main.js": "/clipboard/static/js/main.f2c8051c.js",
+    "main.css": "/clipboard/static/css/main.ec914a46.css",
+    "main.js": "/clipboard/static/js/main.96786ced.js",
     "static/media/image-computer.png": "/clipboard/static/media/image-computer.65db67db202be4e74616.png",
     "static/media/image-devices.png": "/clipboard/static/media/image-devices.7a9f93355333984b7941.png",
     "static/media/BaiJamjuree-SemiBold.woff": "/clipboard/static/media/BaiJamjuree-SemiBold.f5422114959334614254.woff",
@@ -14,11 +14,11 @@
     "static/media/icon-text.svg": "/clipboard/static/media/icon-text.72e88c25f84b1cf1d3f69a697f689f64.svg",
     "index.html": "/clipboard/index.html",
     "static/media/logo.svg": "/clipboard/static/media/logo.99709bee9527fac7b703e0053be7feda.svg",
-    "main.8dad93c8.css.map": "/clipboard/static/css/main.8dad93c8.css.map",
-    "main.f2c8051c.js.map": "/clipboard/static/js/main.f2c8051c.js.map"
+    "main.ec914a46.css.map": "/clipboard/static/css/main.ec914a46.css.map",
+    "main.96786ced.js.map": "/clipboard/static/js/main.96786ced.js.map"
   },
   "entrypoints": [
-    "static/css/main.8dad93c8.css",
-    "static/js/main.f2c8051c.js"
+    "static/css/main.ec914a46.css",
+    "static/js/main.96786ced.js"
   ]
 }
