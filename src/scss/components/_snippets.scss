@@ -35,3 +35,69 @@
         color: $grayish-blue;
     }
 }
+
+/* For Medium Devices */
+@media screen and (min-width: 576px) {
+    .snippets {
+        &-data {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &-image {
+            width: 80%;
+            height: auto;
+        }
+
+        &-data-content {
+            padding-top: 4rem;
+        }
+
+        &-data-description {
+            max-width: 20rem;
+        }
+    }
+}
+
+/* For Large Devices */
+@media screen and (min-width: 968px) {
+    .snippets {
+        &-main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &-subtitle {
+            max-width: 38rem;
+        }
+
+        &-data {
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+            align-items: stretch;
+        }
+
+        &-image {
+            width: 60%;
+            height: auto;
+        }
+
+        &-data-content {
+            text-align: left;
+        }
+
+        &-data-title {
+            font-size: 1.2rem;
+            font-weight: $font-semi-bold;
+            padding-bottom: 0.5rem;
+        }
+    
+        &-data-description {
+            line-height: 25px;
+            font-size: .9rem;
+        }
+    }
+}

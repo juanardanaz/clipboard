@@ -44,3 +44,20 @@
         padding-top: 1.5rem;
     }
 }
+
+/* ========= BREAKPOINTS ========= */
+/* For Large Devices */
+@media screen and (min-width: 968px) {
+    .hero {
+        background: url(../../assets/img/bg-header-desktop.png) top no-repeat;
+        background-size: 100%;
+
+        &-subtitle {
+            max-width: 35rem;
+        }
+
+        &-buttons {
+            flex-direction: row;
+        }
+    }
+}

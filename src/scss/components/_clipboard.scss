@@ -20,3 +20,33 @@
         color: $grayish-blue;
     }
 }
+
+/* For Medium Devices */
+@media screen and (min-width: 576px) {
+    .clipboard {
+        &-image {
+            width: 90%;
+            height: auto;
+        }
+    }
+}
+
+/* For Large Devices */
+@media screen and (min-width: 968px) {
+    .clipboard {
+        &-data {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        &-subtitle {
+            max-width: 37rem;
+        }
+
+        &-image {
+            width: 70%;
+            height: auto;
+        }
+    }
+}

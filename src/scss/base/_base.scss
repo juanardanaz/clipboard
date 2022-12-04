@@ -58,3 +58,11 @@ img {
     }
 }
 
+/* ========= BREAKPOINTS ========= */
+/* For Large Devices */
+@media screen and (min-width: 968px) {
+    .button {
+        padding: .95rem 2.8rem;
+    }
+}
+
