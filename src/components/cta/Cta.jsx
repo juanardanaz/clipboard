@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../scss/components/_cta.scss';
+import ScrollReveal from 'scrollreveal';
 
 const Cta = () => {
   return (
@@ -21,4 +22,5 @@ const Cta = () => {
   )
 }
 
+ScrollReveal().reveal('.cta-container', {origin: 'top', distance: '60px', duration: 2500, delay: 400});
 export default Cta;

@@ -3,6 +3,7 @@ import '../../scss/components/_workflow.scss';
 import Blacklist from '../../assets/img/icon-blacklist.svg';
 import Text from '../../assets/img/icon-text.svg';
 import Preview from '../../assets/img/icon-preview.svg';
+import ScrollReveal from 'scrollreveal';
 
 const Workflow = () => {
   return (
@@ -43,4 +44,5 @@ const Workflow = () => {
   )
 }
 
+ScrollReveal().reveal('.workflow-container', {origin: 'top', distance: '60px', duration: 2500, delay: 400});
 export default Workflow;

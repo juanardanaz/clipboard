@@ -2,6 +2,7 @@ import React from 'react';
 import '../../scss/components/_footer.scss';
 import LogoFooter from '../../assets/img/logo.svg';
 import { FaFacebookSquare, FaTwitter, FaInstagram } from "react-icons/fa";
+import ScrollReveal from 'scrollreveal';
 
 const Footer = () => {
   return (
@@ -11,14 +12,24 @@ const Footer = () => {
           <img src={LogoFooter} alt="logo" className='footer-logo' />
 
           <div className="footer-content">
-              <ul className="footer-links">
-                <li><a href="#" className="footer-link">FAQs</a></li>
-                <li><a href="#" className="footer-link">Contact Us</a></li>
-                <li><a href="#" className="footer-link">Privacy Policy</a></li>
-                <li><a href="#" className="footer-link">Press Kit</a></li>
-                <li><a href="#" className="footer-link">Install Guide</a></li>
-              </ul>
-            </div>
+            <ul className="footer-links">
+              <li><a href="#" className="footer-link">FAQs</a></li>
+              <li><a href="#" className="footer-link">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div className="footer-content">
+            <ul className="footer-links">
+              <li><a href="#" className="footer-link">Privacy Policy</a></li>
+              <li><a href="#" className="footer-link">Press Kit</a></li>
+            </ul>
+          </div>
+
+          <div className="footer-content">
+            <ul className="footer-links">
+              <li><a href="#" className="footer-link">Install Guide</a></li>
+            </ul>
+          </div>
         </div>
 
         <div className="footer-social">
@@ -38,4 +49,5 @@ const Footer = () => {
   )
 }
 
+ScrollReveal().reveal('.footer-container', {origin: 'top', distance: '60px', duration: 2500, delay: 400});
 export default Footer;

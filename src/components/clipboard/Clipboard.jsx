@@ -1,6 +1,7 @@
 import React from 'react';
 import Devices from '../../assets/img/image-devices.png';
 import '../../scss/components/_clipboard.scss';
+import ScrollReveal from 'scrollreveal';
 
 const Clipboard = () => {
   return (
@@ -18,4 +19,5 @@ const Clipboard = () => {
   )
 }
 
+ScrollReveal().reveal('.clipboard-container', {origin: 'top', distance: '60px', duration: 2500, delay: 400});
 export default Clipboard;

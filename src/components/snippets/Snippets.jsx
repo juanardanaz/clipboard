@@ -1,6 +1,7 @@
 import React from 'react';
 import Computer from '../../assets/img/image-computer.png';
 import '../../scss/components/_snippets.scss';
+import ScrollReveal from 'scrollreveal';
 
 const Snippets = () => {
   return (
@@ -39,4 +40,5 @@ const Snippets = () => {
   )
 }
 
+ScrollReveal().reveal('.snippets-container', {origin: 'top', distance: '60px', duration: 2500, delay: 400});
 export default Snippets;

@@ -5,6 +5,7 @@ import Hp from '../../assets/img/logo-hp.png';
 import Ibm from '../../assets/img/logo-ibm.png';
 import Microsoft from '../../assets/img/logo-microsoft.png';
 import Vector from '../../assets/img/logo-vector-graphics.png';
+import ScrollReveal from 'scrollreveal';
 
 const Clients = () => {
   return (
@@ -22,4 +23,5 @@ const Clients = () => {
   )
 }
 
+ScrollReveal().reveal('.clients-container', {origin: 'top', distance: '60px', duration: 2500, delay: 400});
 export default Clients;
