@@ -16,7 +16,7 @@ const Workflow = () => {
 
         <div className="workflow-options">
           <div className="workflow-options-box">
-            <img src={Blacklist} alt="" className='workflow-options-image'/>
+            <img src={Blacklist} alt="blacklist" className='workflow-options-image'/>
             <h3 className="workflow-options-title">Create blacklists</h3>
             <p className="workflow-options-description">
               Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
@@ -24,7 +24,7 @@ const Workflow = () => {
           </div>
 
           <div className="workflow-options-box">
-            <img src={Text} alt="" className='workflow-options-image'/>
+            <img src={Text} alt="text typing" className='workflow-options-image'/>
             <h3 className="workflow-options-title">Plain text snippets</h3>
             <p className="workflow-options-description">
               Remove unwanted formatting from copied text for a consistent look.
@@ -32,7 +32,7 @@ const Workflow = () => {
           </div>
 
           <div className="workflow-options-box">
-            <img src={Preview} alt="" className='workflow-options-image'/>
+            <img src={Preview} alt="eye preview icon" className='workflow-options-image'/>
             <h3 className="workflow-options-title">Sneak preview</h3>
             <p className="workflow-options-description">
               Quick preview of all snippets on your Clipboard for easy access.

@@ -3,7 +3,6 @@
 /* ========= SNIPPETS ========= */
 .snippets {
     &-main {
-        // padding-top: 2rem;
         padding-bottom: 2rem;
         text-align: center;
     }
@@ -23,16 +22,21 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        gap: 2rem;
         padding-top: 2rem;
+    }
+
+    &-data-function {
+        padding: 2rem 1.5rem;
     }
 
     &-data-title {
         font-size: 1.5rem;
+        padding-bottom: 0.5rem;
     }
 
     &-data-description {
         color: $grayish-blue;
+        line-height: 1.5rem;
     }
 }
 
@@ -78,7 +82,6 @@
             display: flex;
             flex-direction: row;
             gap: 3rem;
-            align-items: stretch;
         }
 
         &-image {
@@ -88,6 +91,7 @@
 
         &-data-content {
             text-align: left;
+            padding-top: 0;
         }
 
         &-data-title {
@@ -108,6 +112,10 @@
         &-data {
             position: relative;
             left: -4rem;
+        }
+
+        &-data-function {
+            padding: 1.5rem 1.2rem;
         }
     }
 }
